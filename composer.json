@@ -1,0 +1,31 @@
+{
+    "name": "ppi/datasource",
+    "description": "The PPI DataSource Library. This allows you to easily create connections for the top database libraries in PHP.",
+    "homepage": "https://github.com/ppi/datasource",
+    "license": "MIT",
+    "keywords": ["php", "framework", "ppi", "skeletonapp", "datasource", "doctrine", "mongodb", "mysql", "laravel", "zend"],
+    "authors": [
+        {
+            "name": "Paul Dragoonis",
+            "email": "paul@ppi.io"
+        },
+        {
+            "name": "Community contributions",
+            "homepage": "https://github.com/ppi/datasource/contributors"
+        }
+    ],
+    "support": {
+        "irc": "irc://irc.freenode.org/ppi",
+        "issues": "https://github.com/ppi/datasource/issues"
+    },
+    "require": {
+        "ppi/framework": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {
+            "PPI\\DataSource\\": "src/",
+            "PPI\\DataSource\\Tests\\": "tests"
+        }
+    },
+    "minimum-stability": "dev"
+}
