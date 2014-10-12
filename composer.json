@@ -19,7 +19,8 @@
         "issues": "https://github.com/ppi/datasource/issues"
     },
     "require": {
-        "ppi/framework": "2.1.*@dev"
+        "ppi/framework": "2.1.*@dev",
+        "doctrine/dbal": "2.5.*@dev"
     },
     "autoload": {
         "psr-4": {
