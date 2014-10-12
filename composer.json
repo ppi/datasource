@@ -19,7 +19,7 @@
         "issues": "https://github.com/ppi/datasource/issues"
     },
     "require": {
-        "ppi/framework": "dev-develop"
+        "ppi/framework": "2.1.*@dev"
     },
     "autoload": {
         "psr-4": {
